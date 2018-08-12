@@ -5,3 +5,7 @@ class QuestionBankSerializer(serializers.ModelSerializer):
     class Meta:
         model = QuestionBank
         fields = '__all__'
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = QuestionBank
+        fields = ['category']
